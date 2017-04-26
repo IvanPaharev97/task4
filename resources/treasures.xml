@@ -1,0 +1,1770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc:treasures>
+<tc:treasures xmlns:tc="http://www.epam.tc.com/treasures"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.epam.tc.com/treasures treasures.xsd">
+
+ 	<treasure id="11" category="jewel">
+ 		<verbalProperty name="type">
+ 			<value>Precious stone</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>Diamond</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="diameter">
+ 			<value>1.2</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>0.015</value>
+ 		</doubleProperty>
+		<price>324.57</price>
+	</treasure>
+	<treasure id="12" category="jewel">
+		<verbalProperty name="type">
+ 			<value>Precious stone</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>Ruby</value>
+ 		</verbalProperty>
+ 		 <doubleProperty name="diameter">
+ 			<value>5.1</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>0.51</value>
+ 		</doubleProperty>
+		<price>117</price>
+	</treasure>
+	<treasure id="13" category="jewel">
+		<verbalProperty name="type">
+ 			<value>Halfprecious stone</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>Opal</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="diameter">
+ 			<value>35.4</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>15.6</value>
+ 		</doubleProperty>
+		<price>257.3</price>
+	</treasure>
+
+	<treasure id="21" category="ring">
+		<verbalProperty name="material">
+ 			<value>Gold</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="style">
+ 			<value>Classic</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="weight">
+ 			<value>2.7</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasPreciousStone">
+ 			<value>true</value>
+ 		</hasProperty>
+		<price>751</price>
+	</treasure>
+	<treasure id="22" category="ring">
+		<verbalProperty name="material">
+ 			<value>Platinum</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="style">
+ 			<value>Vintage</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="weight">
+ 			<value>6.1</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasPreciousStone">
+ 			<value>false</value>
+ 		</hasProperty>
+		<price>1024.33</price>
+	</treasure>
+	<treasure id="23" category="ring">
+		<verbalProperty name="material">
+ 			<value>Silver</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="style">
+ 			<value>Classic</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="weight">
+ 			<value>5.34</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasPreciousStone">
+ 			<value>false</value>
+ 		</hasProperty>
+		<price>99.99</price>
+	</treasure>
+
+	<treasure id="31" category="bracelet">
+		<verbalProperty name="material">
+ 			<value>Silver</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="style">
+ 			<value>Classic</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="hardness">
+ 			<value>hard</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="weight">
+ 			<value>12.3</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="bodyGirth">
+ 			<value>19.7</value>
+ 		</doubleProperty>
+		<price>230.69</price>
+	</treasure>
+	<treasure id="32" category="bracelet">
+		<verbalProperty name="material">
+ 			<value>Gold</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="style">
+ 			<value>Vintage</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="hardness">
+ 			<value>medium</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="weight">
+ 			<value>13.1</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="bodyGirth">
+ 			<value>21.2</value>
+ 		</doubleProperty>
+		<price>538.29</price>
+	</treasure>
+	<treasure id="33" category="bracelet">
+		<verbalProperty name="material">
+ 			<value>Steel</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="style">
+ 			<value>Classic</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="hardness">
+ 			<value>hard</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="weight">
+ 			<value>11.9</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="bodyGirth">
+ 			<value>20.2</value>
+ 		</doubleProperty>
+		<price>214.99</price>
+	</treasure>
+	
+	<treasure id="41" category="chain">
+		<verbalProperty name="material">
+ 			<value>Gold</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="lockType">
+ 			<value>Sptreasure ring</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="length">
+ 			<value>0.4</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>0.02</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="thickness">
+ 			<value>0.01</value>
+ 		</doubleProperty>
+		<price>455</price>
+	</treasure>
+	<treasure id="42" category="chain">
+		<verbalProperty name="material">
+ 			<value>Silver</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="lockType">
+ 			<value>Lobster</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="length">
+ 			<value>0.35</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>0.016</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="thickness">
+ 			<value>0.01</value>
+ 		</doubleProperty>
+		<price>130</price>
+	</treasure>
+	<treasure id="43" category="chain">
+		<verbalProperty name="material">
+ 			<value>Gold</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="lockType">
+ 			<value>Barrel</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="length">
+ 			<value>0.45</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>0.034</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="thickness">
+ 			<value>0.014</value>
+ 		</doubleProperty>
+		<price>455</price>
+	</treasure>
+
+	<treasure id="51" category="sandglass">
+		<verbalProperty name="material">
+ 			<value>Steel</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="sandType">
+ 			<value>Ground sand</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="weight">
+ 			<value>14</value>
+ 		</doubleProperty>
+		<price>128</price>
+	</treasure>
+	<treasure id="52" category="sandglass">
+		<verbalProperty name="material">
+ 			<value>Gold</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="sandType">
+ 			<value>River sand</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="weight">
+ 			<value>15.5</value>
+ 		</doubleProperty>
+		<price>441</price>
+	</treasure>
+	<treasure id="53" category="sandglass">
+		<verbalProperty name="material">
+ 			<value>Platinum</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="sandType">
+ 			<value>Quarry sand</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="weight">
+ 			<value>13</value>
+ 		</doubleProperty>
+		<price>389</price>
+	</treasure>
+	
+	<treasure id="61" category="beads">
+		<verbalProperty name="material">
+ 			<value>Amber</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="length">
+ 			<value>0.35</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>0.052</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="thickness">
+ 			<value>0.02</value>
+ 		</doubleProperty>
+		<price>205</price>
+	</treasure>
+	<treasure id="62" category="beads">
+		<verbalProperty name="material">
+ 			<value>Coral</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="length">
+ 			<value>0.55</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>0.11</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="thickness">
+ 			<value>0.03</value>
+ 		</doubleProperty>
+		<price>336</price>
+	</treasure>
+	<treasure id="63" category="beads">
+		<verbalProperty name="material">
+ 			<value>Emerald</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="length">
+ 			<value>0.4</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>0.21</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="thickness">
+ 			<value>0.03</value>
+ 		</doubleProperty>
+		<price>984</price>
+	</treasure>
+	
+	<treasure id="71" category="coulomb">
+		<verbalProperty name="material">
+ 			<value>Gold</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="form">
+ 			<value>square</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="length">
+ 			<value>5</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>3</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>1</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>40</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasPicture">
+ 			<value>false</value>
+ 		</hasProperty>
+		<price>140</price>
+	</treasure>
+	<treasure id="72" category="coulomb">
+		<verbalProperty name="material">
+ 			<value>Silver</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="form">
+ 			<value>round</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="length">
+ 			<value>2</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>2</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>0.5</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>55</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasPicture">
+ 			<value>true</value>
+ 		</hasProperty>
+		<price>75</price>
+	</treasure>
+	
+	<treasure id="73" category="coulomb">
+		<verbalProperty name="material">
+ 			<value>Bronze</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="form">
+ 			<value>triangle</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="length">
+ 			<value>5</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>2</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>0.7</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>40</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasPicture">
+ 			<value>true</value>
+ 		</hasProperty>
+		<price>30</price>
+	</treasure>
+
+	<treasure id="81" category="cup">
+		<verbalProperty name="material">
+ 			<value>Gold</value>
+ 		</verbalProperty>
+		<doubleProperty name="capacity">
+ 			<value>650</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>70</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>150</value>
+ 		</doubleProperty>
+		<price>250</price>
+	</treasure>
+	<treasure id="82" category="cup">
+		<verbalProperty name="material">
+ 			<value>Silver</value>
+ 		</verbalProperty>
+		<doubleProperty name="capacity">
+ 			<value>250</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>45</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>25</value>
+ 		</doubleProperty>
+		<price>100</price>
+	</treasure>
+	<treasure id="83" category="cup">
+		<verbalProperty name="material">
+ 			<value>Silver</value>
+ 		</verbalProperty>
+		<doubleProperty name="capacity">
+ 			<value>150</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>50</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>50</value>
+ 		</doubleProperty>
+		<price>150</price>
+	</treasure>
+	
+	<treasure id="91" category="vase">
+		<verbalProperty name="name">
+ 			<value>Euphronios Krater</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Kreter</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="capacity">
+ 			<value>3</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasPicture">
+ 			<value>true</value>
+ 		</hasProperty>
+		<price>90</price>
+	</treasure>
+	<treasure id="92" category="vase">
+		<verbalProperty name="name">
+ 			<value>Regina Vasorum</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Hydria</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="capacity">
+ 			<value>5</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasPicture">
+ 			<value>true</value>
+ 		</hasProperty>
+		<price>60</price>
+	</treasure>
+	<treasure id="93" category="vase">
+		<verbalProperty name="name">
+ 			<value>Ayla-Axum Amphorae</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Amphora</value>
+ 		</verbalProperty>
+ 		<doubleProperty name="capacity">
+ 			<value>4</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasPicture">
+ 			<value>false</value>
+ 		</hasProperty>
+		<price>75</price>
+	</treasure>
+	
+	<treasure id="101" category="statue">
+		<verbalProperty name="name">
+ 			<value>Petit Julien</value>
+ 		</verbalProperty>
+		<verbalProperty name="type">
+ 			<value>mannerism</value>
+ 		</verbalProperty>
+		<verbalProperty name="master">
+ 			<value>Jerome Duquesnoy l'Ancien</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>50</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>20</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>35</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>50</value>
+ 		</doubleProperty>
+		<dateProperty name="creationDate">
+ 			<value>1619-12-12</value>
+ 		</dateProperty>
+		<price>1000</price>
+	</treasure>
+	<treasure id="102" category="statue">
+		<verbalProperty name="name">
+ 			<value>Le Penseur</value>
+ 		</verbalProperty>
+		<verbalProperty name="type">
+ 			<value>realism</value>
+ 		</verbalProperty>
+		<verbalProperty name="master">
+ 			<value>Francois-Auguste-Rene Rodin</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>80</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>50</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>150</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>100</value>
+ 		</doubleProperty>
+		<dateProperty name="creationDate">
+ 			<value>1882-04-02</value>
+ 		</dateProperty>
+		<price>200</price>
+	</treasure>
+	<treasure id="103" category="statue">
+		<verbalProperty name="name">
+ 			<value>Le Denseur</value>
+ 		</verbalProperty>
+		<verbalProperty name="type">
+ 			<value>realism</value>
+ 		</verbalProperty>
+		<verbalProperty name="master">
+ 			<value>Rene Rodin-Marchenkovski</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>75</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>65</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>85</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>80</value>
+ 		</doubleProperty>
+		<dateProperty name="creationDate">
+ 			<value>1882-03-06</value>
+ 		</dateProperty>
+		<price>200</price>
+	</treasure>
+	
+	<treasure id="111" category="picture">
+		<verbalProperty name="name">
+ 			<value>La Danse</value>
+ 		</verbalProperty>
+		<verbalProperty name="type">
+ 			<value>impressionism</value>
+ 		</verbalProperty>
+		<verbalProperty name="master">
+ 			<value>Henri Matisse</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="quality">
+ 			<value>medium</value>
+ 		</verbalProperty>
+		<verbalProperty name="paintType">
+ 			<value>oils</value>
+ 		</verbalProperty>
+		<dateProperty name="creationDate">
+ 			<value>1910-02-01</value>
+ 		</dateProperty>
+		<price>3000</price>
+	</treasure>
+	<treasure id="112" category="picture">
+		<verbalProperty name="name">
+ 			<value>Danse La</value>
+ 		</verbalProperty>
+		<verbalProperty name="type">
+ 			<value>barokko</value>
+ 		</verbalProperty>
+		<verbalProperty name="master">
+ 			<value>Henri Tisse</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="quality">
+ 			<value>bad</value>
+ 		</verbalProperty>
+		<verbalProperty name="paintType">
+ 			<value>gouache</value>
+ 		</verbalProperty>
+		<dateProperty name="creationDate">
+ 			<value>1810-04-03</value>
+ 		</dateProperty>
+		<price>1000</price>
+	</treasure>
+	<treasure id="113" category="picture">
+		<verbalProperty name="name">
+ 			<value>Danse La La</value>
+ 		</verbalProperty>
+		<verbalProperty name="type">
+ 			<value>marokko</value>
+ 		</verbalProperty>
+		<verbalProperty name="master">
+ 			<value>Henri Se</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="quality">
+ 			<value>perfect</value>
+ 		</verbalProperty>
+		<verbalProperty name="paintType">
+ 			<value>gouache</value>
+ 		</verbalProperty>
+		<dateProperty name="creationDate">
+ 			<value>1710-06-05</value>
+ 		</dateProperty>
+		<price>30000</price>
+	</treasure>
+	
+	<treasure id="121" category="casket">
+		<doubleProperty name="length">
+ 			<value>30</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>20</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>10</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>1.2</value>
+ 		</doubleProperty>
+		<hasProperty name="hasLock">
+ 			<value>true</value>
+ 		</hasProperty>
+		<price>25</price>
+	</treasure>
+	<treasure id="122" category="casket">
+		<doubleProperty name="length">
+ 			<value>40</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>40</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>20</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>1.8</value>
+ 		</doubleProperty>
+		<hasProperty name="hasLock">
+ 			<value>false</value>
+ 		</hasProperty>
+		<price>20</price>
+	</treasure>
+	<treasure id="123" category="casket">
+		<doubleProperty name="length">
+ 			<value>50</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>35</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>25</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>2.5</value>
+ 		</doubleProperty>
+		<hasProperty name="hasLock">
+ 			<value>true</value>
+ 		</hasProperty>
+		<price>35</price>
+	</treasure>
+	
+	<treasure id="131" category="key">
+		<verbalProperty name="type">
+ 			<value>English key</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="whatOpen">
+ 			<value>casket</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>5</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>2</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>1</value>
+ 		</doubleProperty>
+		<price>10</price>
+	</treasure>
+	<treasure id="132" category="key">
+		<verbalProperty name="type">
+ 			<value>Socket wrench</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="whatOpen">
+ 			<value>door</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>4</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>0.8</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>0.5</value>
+ 		</doubleProperty>
+		<price>12</price>
+	</treasure>
+	<treasure id="133" category="key">
+		<verbalProperty name="type">
+ 			<value>Perforated key</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="whatOpen">
+ 			<value>lock</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>3</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>0.5</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>0.2</value>
+ 		</doubleProperty>
+		<price>15</price>
+	</treasure>
+	
+	<treasure id="141" category="sword">
+		<verbalProperty name="name">
+ 			<value>Katana</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>steel</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>curved</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>70</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>1.8</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="thickness">
+ 			<value>0.04</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="damage">
+ 			<value>130</value>
+ 		</doubleProperty>
+		<price>212.4</price>
+	</treasure>
+	<treasure id="142" category="sword">
+		<verbalProperty name="name">
+ 			<value>Jian</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>steel</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>straight</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>72</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>1.5</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="thickness">
+ 			<value>0.03</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="damage">
+ 			<value>110</value>
+ 		</doubleProperty>
+		<price>191.1</price>
+	</treasure>
+	<treasure id="143" category="sword">
+		<verbalProperty name="name">
+ 			<value>Golok</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>steel</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>machete</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>52</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="weight">
+ 			<value>1.1</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="thickness">
+ 			<value>0.05</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="damage">
+ 			<value>75</value>
+ 		</doubleProperty>
+		<price>98.5</price>
+	</treasure>
+	
+	<treasure id="151" category="staff">
+		<verbalProperty name="name">
+ 			<value>Bo</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>battle staff</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="tipType">
+ 			<value>wood</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>180</value>
+ 		</doubleProperty>
+		<price>166.7</price>
+	</treasure>
+	<treasure id="152" category="staff">
+		<verbalProperty name="name">
+ 			<value>Jo</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>battle staff</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="tipType">
+ 			<value>wood</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>128</value>
+ 		</doubleProperty>
+		<price>111.5</price>
+	</treasure>
+	<treasure id="153" category="staff">
+		<verbalProperty name="name">
+ 			<value>Kanabo</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>battle club</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="tipType">
+ 			<value>steel</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>141</value>
+ 		</doubleProperty>
+		<price>177.5</price>
+	</treasure>
+	
+	<treasure id = "161" category="mace">
+		<verbalProperty name="name">
+ 			<value>Plastic</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>simple</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>60</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>15</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>15</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="damage">
+ 			<value>30</value>
+ 		</doubleProperty>
+		<price>50</price>
+	</treasure>
+	<treasure id = "162" category="mace">
+		<verbalProperty name="name">
+ 			<value>Soldier</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>trainer</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>80</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>10</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>10</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="damage">
+ 			<value>60</value>
+ 		</doubleProperty>
+		<price>500</price>
+	</treasure>
+	<treasure id = "163" category="mace">
+		<verbalProperty name="name">
+ 			<value>Battle</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>complex</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>75</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>25</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>20</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="damage">
+ 			<value>60</value>
+ 		</doubleProperty>
+		<price>400</price>
+	</treasure>
+	
+	<treasure id = "171" category="axe">
+		<verbalProperty name="name">
+ 			<value>Powerful</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>warrior</value>
+ 		</verbalProperty>
+		<verbalProperty name="handleType">
+ 			<value>single</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="bladeType">
+ 			<value>double</value>
+ 		</verbalProperty>
+		<doubleProperty name="damage">
+ 			<value>70</value>
+ 		</doubleProperty>
+		<price>1000</price>
+	</treasure>
+	<treasure id = "172" category="axe">
+		<verbalProperty name="name">
+ 			<value>Firewood</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>simple</value>
+ 		</verbalProperty>
+		<verbalProperty name="handleType">
+ 			<value>double</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="bladeType">
+ 			<value>single</value>
+ 		</verbalProperty>
+		<doubleProperty name="damage">
+ 			<value>60</value>
+ 		</doubleProperty>
+		<price>800</price>
+	</treasure>
+	<treasure id = "173" category="axe">
+		<verbalProperty name="name">
+ 			<value>Battle</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>warrior</value>
+ 		</verbalProperty>
+		<verbalProperty name="handleType">
+ 			<value>soldier</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="bladeType">
+ 			<value>single</value>
+ 		</verbalProperty>
+		<doubleProperty name="damage">
+ 			<value>50</value>
+ 		</doubleProperty>
+		<price>300</price>
+	</treasure>
+	
+	<treasure id = "181" category="bow">
+		<verbalProperty name="name">
+ 			<value>English bow</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Long bow</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="arrowType">
+ 			<value>traditional</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>150</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>35</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>4</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="damage">
+ 			<value>35</value>
+ 		</doubleProperty>
+ 		<intProperty name="arrowCount">
+ 			<value>30</value>
+ 		</intProperty>
+		<price>500</price>
+	</treasure>
+	<treasure id = "182" category="bow">
+		<verbalProperty name="name">
+ 			<value>Russian bow</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Short bow</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="arrowType">
+ 			<value>modern</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>90</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>25</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>5</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="damage">
+ 			<value>30</value>
+ 		</doubleProperty>
+ 		<intProperty name="arrowCount">
+ 			<value>50</value>
+ 		</intProperty>
+		<price>450</price>
+	</treasure>
+	<treasure id = "183" category="bow">
+		<verbalProperty name="name">
+ 			<value>German bow</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Composite bow</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="arrowType">
+ 			<value>long</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>115</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>45</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>3</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="damage">
+ 			<value>50</value>
+ 		</doubleProperty>
+ 		<intProperty name="arrowCount">
+ 			<value>20</value>
+ 		</intProperty>
+		<price>800</price>
+	</treasure>
+	
+	<treasure id = "191" category="helmet">
+		<verbalProperty name="name">
+ 			<value>Attic</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>ancient helmet</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>steel</value>
+ 		</verbalProperty>
+		<doubleProperty name="headProtection">
+ 			<value>50</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="headGirth">
+ 			<value>40</value>
+ 		</doubleProperty>	
+		<price>500</price>
+	</treasure>
+	<treasure id = "192" category="helmet">
+		<verbalProperty name="name">
+ 			<value>M1</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>world war helmet</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>steel</value>
+ 		</verbalProperty>
+		<doubleProperty name="headProtection">
+ 			<value>100</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="headGirth">
+ 			<value>42</value>
+ 		</doubleProperty>	
+		<price>200</price>
+	</treasure>
+	<treasure id = "193" category="helmet">
+		<verbalProperty name="name">
+ 			<value>Bell</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>bike helmet</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>polyurethane</value>
+ 		</verbalProperty>
+		<doubleProperty name="headProtection">
+ 			<value>20</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="headGirth">
+ 			<value>38</value>
+ 		</doubleProperty>	
+		<price>100</price>
+	</treasure>
+	
+	<treasure id="201" category="spaulders">
+		<verbalProperty name="name">
+ 			<value>Kasten-brust spaulders</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>ancient</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>metal</value>
+ 		</verbalProperty>
+		<doubleProperty name="bodyProtection">
+ 			<value>50</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="shoulderGirth">
+ 			<value>140</value>
+ 		</doubleProperty>
+		<price>90</price>
+	</treasure>
+	<treasure id="202" category="spaulders">
+		<verbalProperty name="name">
+ 			<value>Gothic spaulders</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>ancient</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>metal</value>
+ 		</verbalProperty>
+		<doubleProperty name="bodyProtection">
+ 			<value>60</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="shoulderGirth">
+ 			<value>150</value>
+ 		</doubleProperty>
+		<price>80</price>
+	</treasure>
+	<treasure id="203" category="spaulders">
+		<verbalProperty name="name">
+ 			<value>Deltoid Axillary Protector</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>modern</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>kevlar</value>
+ 		</verbalProperty>
+		<doubleProperty name="bodyProtection">
+ 			<value>80</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="shoulderGirth">
+ 			<value>120</value>
+ 		</doubleProperty>
+		<price>40</price>
+	</treasure>
+	
+	<treasure id="211" category="armor">
+	    <verbalProperty name="name">
+ 			<value>Platemail</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>plate</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>steel</value>
+ 		</verbalProperty>
+		<doubleProperty name="bodyProtection">
+ 			<value>80</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="bodyGirth">
+ 			<value>130</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasPicture">
+ 			<value>true</value>
+ 		</hasProperty>
+	    <price>1400</price>
+	</treasure>
+	<treasure id="212" category="armor">
+	    <verbalProperty name="name">
+ 			<value>Chainmail</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>chainmail</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>steel</value>
+ 		</verbalProperty>
+		<doubleProperty name="bodyProtection">
+ 			<value>70</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="bodyGirth">
+ 			<value>140</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasPicture">
+ 			<value>false</value>
+ 		</hasProperty>
+	    <price>550</price>
+	</treasure>
+	<treasure id="213" category="armor">
+	    <verbalProperty name="name">
+ 			<value>Blademail</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>plate</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>titanium</value>
+ 		</verbalProperty>
+		<doubleProperty name="bodyProtection">
+ 			<value>95</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="bodyGirth">
+ 			<value>125</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasPicture">
+ 			<value>true</value>
+ 		</hasProperty>
+	    <price>2200</price>
+	</treasure>
+	
+	<treasure id="221" category="trousers">
+		<verbalProperty name="name">
+ 			<value>Battle trousers</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>BATTLE</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>steel</value>
+ 		</verbalProperty>
+		<doubleProperty name="legProtection">
+ 			<value>70</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="legGirth">
+ 			<value>50</value>
+ 		</doubleProperty>
+		<price>313.4</price>
+	</treasure>
+	<treasure id="222" category="trousers">
+		<verbalProperty name="name">
+ 			<value>Persian trousers</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>BLOOMERS</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>textile</value>
+ 		</verbalProperty>
+		<doubleProperty name="legProtection">
+ 			<value>10</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="legGirth">
+ 			<value>40</value>
+ 		</doubleProperty>
+		<price>20.4</price>
+	</treasure>
+	<treasure id="223" category="trousers">
+		<verbalProperty name="name">
+ 			<value>Warm trousers</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>WARM</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>fur</value>
+ 		</verbalProperty>
+		<doubleProperty name="legProtection">
+ 			<value>25</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="legGirth">
+ 			<value>55</value>
+ 		</doubleProperty>
+		<price>200.3</price>
+	</treasure>
+	
+	<treasure id="231" category="boots">
+		<verbalProperty name="name">
+ 			<value>Battle trousers</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>BATTLE</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>steel</value>
+ 		</verbalProperty>
+		<doubleProperty name="legProtection">
+ 			<value>55</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="legGirth">
+ 			<value>42</value>
+ 		</doubleProperty>
+		<price>100.7</price>
+	</treasure>
+	<treasure id="232" category="boots">
+		<verbalProperty name="name">
+ 			<value>Egyptstyle</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>SANDALS</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>leather</value>
+ 		</verbalProperty>
+		<doubleProperty name="legProtection">
+ 			<value>30</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="legGirth">
+ 			<value>43</value>
+ 		</doubleProperty>
+		<price>21.5</price>
+	</treasure>
+	<treasure id="233" category="boots">
+		<verbalProperty name="name">
+ 			<value>Walkshoes</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>LOWSHOES</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>wood</value>
+ 		</verbalProperty>
+		<doubleProperty name="legProtection">
+ 			<value>15</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="legGirth">
+ 			<value>41</value>
+ 		</doubleProperty>
+		<price>30.4</price>
+	</treasure>
+	
+	<treasure id="241" category="ancientBook">
+		<verbalProperty name="name">
+ 			<value>Lords of Earth</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Very very old</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="language">
+ 			<value>en-GB</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>245</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="pages">
+ 			<value>215</value>
+ 		</doubleProperty>
+		<price>12</price>
+	</treasure>
+	<treasure id="242" category="ancientBook">
+		<verbalProperty name="name">
+ 			<value>Georgia staff</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Very old</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="language">
+ 			<value>en-GB</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>105</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="pages">
+ 			<value>235</value>
+ 		</doubleProperty>
+		<price>15</price>
+	</treasure>
+	<treasure id="243" category="ancientBook">
+		<verbalProperty name="name">
+ 			<value>Dragon fire</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Very old</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="language">
+ 			<value>en-US</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>100</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="pages">
+ 			<value>255</value>
+ 		</doubleProperty>
+		<price>16</price>
+	</treasure>
+	
+	<treasure id="251" category="ancientScroll">
+		<verbalProperty name="name">
+ 			<value>Golden fix</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="content">
+ 			<value>The basic rules to get the money and gold</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="magicSchool">
+ 			<value>Fire magic school</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>23</value>
+ 		</doubleProperty>
+		<price>12</price>
+	</treasure>
+	<treasure id="252" category="ancientScroll">
+		<verbalProperty name="name">
+ 			<value>Basic rules</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="content">
+ 			<value>One of the best scroll</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="magicSchool">
+ 			<value>Water magic school</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>43</value>
+ 		</doubleProperty>
+		<price>18</price>
+	</treasure>
+	<treasure id="253" category="ancientScroll">
+		<verbalProperty name="name">
+ 			<value>Scroll of magic things</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="content">
+ 			<value>You have to read this scroll because of some interesting things</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="magicSchool">
+ 			<value>Water magic school</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>96</value>
+ 		</doubleProperty>
+		<price>28</price>
+	</treasure>
+	
+	<treasure id="261" category="magicStone">
+		<verbalProperty name="name">
+ 			<value>tourmaline</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>green</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="magicWords">
+ 			<value>abrakadabral</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="translation">
+ 			<value>Let there be light</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>256</value>
+ 		</doubleProperty>
+		<price>59.56</price>
+	</treasure>
+	<treasure id="262" category="magicStone">
+		<verbalProperty name="name">
+ 			<value>tourmaline</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>black</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="magicWords">
+ 			<value>huhrymuhry</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="translation">
+ 			<value>Let power be with you</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>512</value>
+ 		</doubleProperty>
+		<price>120.54</price>
+	</treasure>
+	<treasure id="263" category="magicStone">
+		<verbalProperty name="name">
+ 			<value>tourmaline</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>blue</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="magicWords">
+ 			<value>adabralabrak</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="translation">
+ 			<value>Don't worry, be happy</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>1024</value>
+ 		</doubleProperty>
+		<price>67.98</price>
+	</treasure>
+	
+	<treasure id="271" category="runicStone">
+		<verbalProperty name="name">
+ 			<value>fehu</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Elder Futhark</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="engravedRunes">
+ 			<value>fehu</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="translation">
+ 			<value>wealth</value>
+ 		</verbalProperty>
+		<intProperty name="runesCapacity">
+ 			<value>1</value>
+ 		</intProperty>
+		<price>4.56</price>
+	</treasure>
+	<treasure id="272" category="runicStone">
+		<verbalProperty name="name">
+ 			<value>antifire</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Elder Futhark</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="engravedRunes">
+ 			<value>fehu,radio,laguz</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="translation">
+ 			<value>fire protection</value>
+ 		</verbalProperty>
+		<intProperty name="runesCapacity">
+ 			<value>3</value>
+ 		</intProperty>
+		<price>10.05</price>
+	</treasure>
+	<treasure id="273" category="runicStone">
+		<verbalProperty name="name">
+ 			<value>plantain</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Elder Futhark</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="engravedRunes">
+ 			<value>radio,eiwaz,laguz</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="translation">
+ 			<value>travel protection</value>
+ 		</verbalProperty>
+		<intProperty name="runesCapacity">
+ 			<value>3</value>
+ 		</intProperty>
+		<price>11.8</price>
+	</treasure>
+	
+	<treasure id="281" category="ancientFossil">
+		<verbalProperty name="name">
+ 			<value>ammonite</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="accessory">
+ 			<value>squids</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>4000000</value>
+ 		</doubleProperty>
+		<price>300</price>
+	</treasure>
+	<treasure id="282" category="ancientFossil">
+		<verbalProperty name="name">
+ 			<value>trilobite</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="accessory">
+ 			<value>trilobite</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>45000000</value>
+ 		</doubleProperty>
+		<price>300</price>
+	</treasure>
+	<treasure id="283" category="ancientFossil">
+		<verbalProperty name="name">
+ 			<value>belemnite</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="accessory">
+ 			<value>squids</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>54000000</value>
+ 		</doubleProperty>
+		<price>450</price>
+	</treasure>
+	
+	<treasure id="291" category="dragonsegg">
+		<verbalProperty name="dragonsKind">
+ 			<value>almerald</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>25</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>25</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>45</value>
+ 		</doubleProperty>
+		<price>500</price>
+	</treasure>
+	<treasure id="292" category="dragonsegg">
+		<verbalProperty name="dragonsKind">
+ 			<value>royal</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>30</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>30</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>55</value>
+ 		</doubleProperty>
+		<price>1000</price>
+	</treasure>
+	<treasure id="293" category="dragonsegg">
+		<verbalProperty name="dragonsKind">
+ 			<value>magic</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>27</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>27</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>50</value>
+ 		</doubleProperty>
+		<price>600</price>
+	</treasure>
+	
+	<treasure id="301" category="ancientFabric">
+	    <verbalProperty name="name">
+ 			<value>Golden Fleece</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>animal</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>gold</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>50</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>100</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>0.3</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasOrnament">
+ 			<value>false</value>
+ 		</hasProperty>
+	    <price>1900</price>
+	</treasure>
+	
+	<treasure id="302" category="ancientFabric">
+	    <verbalProperty name="name">
+ 			<value>Invisibility Сloak</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>plant</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>silverfabric</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="ornamentType">
+ 			<value>surface</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>150</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>250</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>0.2</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasOrnament">
+ 			<value>true</value>
+ 		</hasProperty>
+	    <price>2700</price>
+	</treasure>
+	
+	<treasure id="303" category="ancientFabric">
+	    <verbalProperty name="name">
+ 			<value>Cloak of Levitation</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>animal</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="material">
+ 			<value>scarletfabric</value>
+ 		</verbalProperty>
+		<doubleProperty name="length">
+ 			<value>200</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="width">
+ 			<value>40</value>
+ 		</doubleProperty>
+ 		<doubleProperty name="height">
+ 			<value>0.1</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasOrnament">
+ 			<value>false</value>
+ 		</hasProperty>
+	    <price>2250</price>
+	</treasure>
+	
+	<treasure id="311" category="aroma">
+		<verbalProperty name="name">
+ 			<value>Sandalwood</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Relax</value>
+ 		</verbalProperty>
+		<doubleProperty name="count">
+ 			<value>1000</value>
+ 		</doubleProperty>
+		<price>350.00</price>
+	</treasure>
+	<treasure id="312" category="aroma">
+		<verbalProperty name="name">
+ 			<value>Patchouli</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Stimulate</value>
+ 		</verbalProperty>
+		<doubleProperty name="count">
+ 			<value>1000</value>
+ 		</doubleProperty>
+		<price>360.00</price>
+	</treasure>
+	<treasure id="313" category="aroma">
+		<verbalProperty name="name">
+ 			<value>Cinnamon</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="type">
+ 			<value>Warm</value>
+ 		</verbalProperty>
+		<doubleProperty name="count">
+ 			<value>800</value>
+ 		</doubleProperty>
+		<price>320.00</price>
+	</treasure>
+	
+	<treasure id="321" category="princess">
+		<verbalProperty name="name">
+ 			<value>Fa Mulan</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="birthPlace">
+ 			<value>China</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>18</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasDamnation">
+ 			<value>false</value>
+ 		</hasProperty>
+	</treasure>
+	<treasure id="322" category="princess">
+		<verbalProperty name="name">
+ 			<value>Aurora</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="birthPlace">
+ 			<value>France</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>16</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasDamnation">
+ 			<value>true</value>
+ 		</hasProperty>
+	</treasure>
+	<treasure id="323" category="princess">
+		<verbalProperty name="name">
+ 			<value>Fiona</value>
+ 		</verbalProperty>
+ 		<verbalProperty name="birthPlace">
+ 			<value>Faraway Kingdom</value>
+ 		</verbalProperty>
+		<doubleProperty name="age">
+ 			<value>16</value>
+ 		</doubleProperty>
+ 		<hasProperty name="hasDamnation">
+ 			<value>true</value>
+ 		</hasProperty>
+	</treasure>
+
+</tc:treasures>

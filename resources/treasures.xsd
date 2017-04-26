@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+		targetNamespace="http://www.epam.tc.com/treasures"
+		xmlns:tns="http://www.epam.tc.com/treasures">
+	<element name="treasures">
+		<complexType>
+			<sequence>
+				<element name="treasure" type="tns:Treasure"
+					minOccurs="0"
+					maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+		<unique name="uniqueID">
+			<selector xpath=".//*" />
+			<field xpath="@id" />
+		</unique>
+	</element>
+	
+	<complexType name="Treasure">
+		<sequence>
+			<element name="verbalProperty" type="tns:VerbalProperty" minOccurs="0" maxOccurs="unbounded" />
+			<element name="doubleProperty" type="tns:DoubleProperty" minOccurs="0" maxOccurs="unbounded" />
+			<element name="intProperty" type="tns:IntegerProperty" minOccurs="0" maxOccurs="unbounded" />
+			<element name="hasProperty" type="tns:HasProperty" minOccurs="0" maxOccurs="unbounded" />
+			<element name="dateProperty" type="tns:DateProperty" minOccurs="0" maxOccurs="unbounded" />
+			<element name="price" type="decimal" minOccurs="0" maxOccurs="1"/>
+		</sequence>
+		<attribute name="id" type="int" use="required" />
+		<attribute name="category" type="string" use="required" />
+	</complexType>
+
+
+	<complexType name="VerbalProperty">
+		<sequence>
+			<element name="value" type="string" />
+		</sequence>
+		<attribute name="name" type="string" use="required" />
+	</complexType>
+	
+	<complexType name="IntegerProperty">
+		<sequence>
+			<element name="value" type="int" />
+		</sequence>
+		<attribute name="name" type="string" use="required" />
+	</complexType>
+	
+	<complexType name="DoubleProperty">
+		<sequence>
+			<element name="value" type="double" />
+		</sequence>
+		<attribute name="name" type="string" use="required" />
+	</complexType>
+	
+	<complexType name="HasProperty">
+		<sequence>
+			<element name="value" type="boolean" />
+		</sequence>
+		<attribute name="name" type="string" use="required" />
+	</complexType>
+	
+	<complexType name="DateProperty">
+		<sequence>
+			<element name="value" type="date" />
+		</sequence>
+		<attribute name="name" type="string" use="required" />
+	</complexType>
+	
+</schema>

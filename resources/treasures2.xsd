@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+		targetNamespace="http://www.epam.tc.com/treasures"
+		xmlns:tns="http://www.epam.tc.com/treasures">
+	<element name="treasures">
+		<complexType>
+			<sequence>
+				<element name="treasure" type="tns:Treasure"
+					minOccurs="0"
+					maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+	
+	<complexType name="Treasure">
+		<all>
+			<element name="name" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="type" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="style" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="material" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="hardness" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="lockType" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="sandType" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="form" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="master" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="quality" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="paintType" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="whatOpen" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="tipType" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="handleType" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="bladeType" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="arrowType" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="language" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="content" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="magicSchool" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="magicWords" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="translation" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="accessory" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="dragonsKind" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="ornamentType" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="birthPlace" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="engravedRune" type="string" minOccurs="0" maxOccurs="1" />
+			
+			<element name="length" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="height" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="thickness" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="diameter" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="weight" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="capacity" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="price" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="girth" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="damage" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="headProtection" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="shoulderProtection" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="bodyProtection" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="legProtection" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="headGirth" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="shoulderGirth" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="bodyGirth" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="legGirth" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="age" type="double" minOccurs="0" maxOccurs="1" />
+			
+			<element name="arrowCount" type="int" minOccurs="0" maxOccurs="1" />
+			<element name="pages" type="int" minOccurs="0" maxOccurs="1" />
+			<element name="runesCapacity" type="int" minOccurs="0" maxOccurs="1" />
+			<element name="count" type="int" minOccurs="0" maxOccurs="1" />
+			
+			<element name="hasLock" type="boolean" minOccurs="0" maxOccurs="1" />
+			<element name="hasDamnation" type="boolean" minOccurs="0" maxOccurs="1" />
+			<element name="hasPicture" type="boolean" minOccurs="0" maxOccurs="1" />
+			<element name="hasOrnament" type="boolean" minOccurs="0" maxOccurs="1" />
+			<element name="hasPreciousStone" type="boolean" minOccurs="0" maxOccurs="1" />
+			
+			<element name="creationDate" type="date" minOccurs="0" maxOccurs="1" />
+			
+			<element name="size" type="tns:Size" minOccurs="0" maxOccurs="1" />
+		</all>
+		<attribute name="id" type="int" use="required" />
+		<attribute name="class" type="string" use="required" />
+	</complexType>
+	
+	<complexType name="Size">
+		<sequence>
+			<element name="length" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="width" type="double" minOccurs="0" maxOccurs="1" />
+			<element name="height" type="double" minOccurs="0" maxOccurs="1" />
+		</sequence>
+	</complexType>
+	
+</schema>
