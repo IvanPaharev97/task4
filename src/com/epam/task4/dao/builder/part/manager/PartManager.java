@@ -1,5 +1,8 @@
 package com.epam.task4.dao.builder.part.manager;
 
+import static com.epam.task4.constant.ParseMarker.*;
+import static com.epam.task4.constant.TreasureXmlTagName.*;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,9 +27,6 @@ import com.epam.task4.dao.builder.part.stax.PutIntPropertyStaxPart;
 import com.epam.task4.dao.builder.part.stax.PutStringPropertyStaxPart;
 import com.epam.task4.dao.builder.part.stax.SetTreasurePriceStaxPart;
 import com.epam.task4.dao.builder.part.stax.StartBuildingTreasureStaxPart;
-
-import static com.epam.task4.constants.TreasuresXmlTagNames.*;
-import static com.epam.task4.constants.SaxAndStaxParseMarkers.*;
 
 public class PartManager {
     private static Map<String, Part> saxCommands;

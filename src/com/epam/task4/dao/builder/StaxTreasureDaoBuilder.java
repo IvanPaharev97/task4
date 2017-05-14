@@ -1,5 +1,7 @@
 package com.epam.task4.dao.builder;
 
+import static com.epam.task4.constant.ParseMarker.*;
+
 import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
@@ -9,14 +11,12 @@ import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
-import com.epam.task4.constants.XmlStreamConstants;
+import com.epam.task4.constant.XmlStreamConstant;
 import com.epam.task4.dao.HashMapTreasureDao;
 import com.epam.task4.dao.builder.part.Part;
 import com.epam.task4.dao.builder.part.manager.PartManager;
 import com.epam.task4.dao.exception.DaoException;
 import com.epam.task4.entity.Treasure;
-
-import static com.epam.task4.constants.SaxAndStaxParseMarkers.*;
 
 public class StaxTreasureDaoBuilder implements TreasureDaoBuilder {
     private static XMLStreamReader reader;
@@ -73,13 +73,13 @@ public class StaxTreasureDaoBuilder implements TreasureDaoBuilder {
             while (reader.hasNext()) {
                 int type = reader.next();
                 switch (type) {
-                case XmlStreamConstants.START_ELEMENT:
+                case XmlStreamConstant.START_ELEMENT:
                     elementName = reader.getLocalName();
                     if (staxCommandsMap.containsKey(elementName + START)) {
                         staxCommandsMap.get(elementName + START).build();
                     }
                     break;
-                case XmlStreamConstants.CHARACTERS:
+                case XmlStreamConstant.CHARACTERS:
                     text = reader.getText().trim();
                     if (text.isEmpty()) {
                         break;
@@ -97,7 +97,7 @@ public class StaxTreasureDaoBuilder implements TreasureDaoBuilder {
                         break;
                     }
                     break;
-                case XmlStreamConstants.END_ELEMENT:
+                case XmlStreamConstant.END_ELEMENT:
                     elementName = reader.getLocalName();
                     if (staxCommandsMap.containsKey(elementName + END)) {
                         staxCommandsMap.get(elementName + END).build();

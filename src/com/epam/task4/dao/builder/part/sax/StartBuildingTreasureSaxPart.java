@@ -1,6 +1,6 @@
 package com.epam.task4.dao.builder.part.sax;
 
-import static com.epam.task4.constants.TreasuresXmlAttibutesNames.*;
+import static com.epam.task4.constant.TreasureXmlAttibuteName.*;
 
 import com.epam.task4.dao.builder.SaxTreasureDaoBuilder.TreasureSaxHandler;
 import com.epam.task4.dao.builder.part.Part;

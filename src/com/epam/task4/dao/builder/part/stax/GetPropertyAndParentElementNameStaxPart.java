@@ -1,9 +1,9 @@
 package com.epam.task4.dao.builder.part.stax;
 
+import static com.epam.task4.constant.TreasureXmlAttibuteName.*;
+
 import com.epam.task4.dao.builder.StaxTreasureDaoBuilder.TreasureStaxHandler;
 import com.epam.task4.dao.builder.part.Part;
-
-import static com.epam.task4.constants.TreasuresXmlAttibutesNames.*;
 
 public class GetPropertyAndParentElementNameStaxPart extends StaxHandlerPart implements Part {
 

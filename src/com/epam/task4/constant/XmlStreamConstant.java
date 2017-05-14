@@ -1,6 +1,6 @@
-package com.epam.task4.constants;
+package com.epam.task4.constant;
 
-public interface XmlStreamConstants {
+public interface XmlStreamConstant {
     public static final int START_ELEMENT = 1;
     public static final int END_ELEMENT = 2;
     public static final int PROCESSING_INSTRUCTION = 3;

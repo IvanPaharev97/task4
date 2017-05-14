@@ -1,5 +1,7 @@
 package com.epam.task4.dao.builder;
 
+import static com.epam.task4.constant.ParseMarker.*;
+
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
@@ -17,8 +19,6 @@ import com.epam.task4.dao.builder.part.Part;
 import com.epam.task4.dao.builder.part.manager.PartManager;
 import com.epam.task4.dao.exception.DaoException;
 import com.epam.task4.entity.Treasure;
-
-import static com.epam.task4.constants.SaxAndStaxParseMarkers.*;
 
 public class SaxTreasureDaoBuilder implements TreasureDaoBuilder {
     private static XMLReader reader;

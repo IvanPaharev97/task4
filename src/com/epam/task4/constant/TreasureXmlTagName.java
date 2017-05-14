@@ -1,6 +1,6 @@
-package com.epam.task4.constants;
+package com.epam.task4.constant;
 
-public interface TreasuresXmlTagNames {
+public interface TreasureXmlTagName {
     public static final String TREASURE = "treasure";
     public static final String VALUE = "value";
     public static final String VERBAL_PROPERTY = "verbal-property";
