@@ -12,10 +12,10 @@ import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.XMLReaderFactory;
 
-import com.epam.task4.command.Command;
-import com.epam.task4.command.manager.CommandManager;
+import com.epam.task4.dao.HashMapTreasureDao;
+import com.epam.task4.dao.builder.part.Part;
+import com.epam.task4.dao.builder.part.manager.PartManager;
 import com.epam.task4.dao.exception.DaoException;
-import com.epam.task4.dao.impl.HashMapTreasureDao;
 import com.epam.task4.entity.Treasure;
 
 import static com.epam.task4.constants.SaxAndStaxParseMarkers.*;
@@ -59,21 +59,21 @@ public class SaxTreasureDaoBuilder implements TreasureDaoBuilder {
         private String propertyName;
         private SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         private Attributes attributes;
-        private Map<String, Command> saxCommands = CommandManager.getSaxCommandsMap(this);
+        private Map<String, Part> saxCommands = PartManager.getSaxCommandsMap(this);
         
         @Override
         public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
             text = new StringBuilder();
             this.attributes = attributes;
             if (saxCommands.containsKey(qName + START)) {
-                saxCommands.get(qName + START).execute();
+                saxCommands.get(qName + START).build();
             }
         }
 
         @Override
         public void endElement(String uri, String localName, String qName) throws SAXException {
             if (saxCommands.containsKey(qName + END)) {
-                saxCommands.get(qName + END).execute();
+                saxCommands.get(qName + END).build();
             }
         }
 

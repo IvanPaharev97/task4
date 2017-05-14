@@ -18,11 +18,11 @@
 	
 	<complexType name="Treasure">
 		<sequence>
-			<element name="verbalProperty" type="tns:VerbalProperty" minOccurs="0" maxOccurs="unbounded" />
-			<element name="doubleProperty" type="tns:DoubleProperty" minOccurs="0" maxOccurs="unbounded" />
-			<element name="intProperty" type="tns:IntegerProperty" minOccurs="0" maxOccurs="unbounded" />
-			<element name="hasProperty" type="tns:HasProperty" minOccurs="0" maxOccurs="unbounded" />
-			<element name="dateProperty" type="tns:DateProperty" minOccurs="0" maxOccurs="unbounded" />
+			<element name="verbal-property" type="tns:VerbalProperty" minOccurs="0" maxOccurs="unbounded" />
+			<element name="double-property" type="tns:DoubleProperty" minOccurs="0" maxOccurs="unbounded" />
+			<element name="int-property" type="tns:IntegerProperty" minOccurs="0" maxOccurs="unbounded" />
+			<element name="has-property" type="tns:HasProperty" minOccurs="0" maxOccurs="unbounded" />
+			<element name="date-property" type="tns:DateProperty" minOccurs="0" maxOccurs="unbounded" />
 			<element name="price" type="decimal" minOccurs="0" maxOccurs="1"/>
 		</sequence>
 		<attribute name="id" type="int" use="required" />

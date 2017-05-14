@@ -14,9 +14,9 @@ import org.w3c.dom.Element;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
-import com.epam.task4.command.dom.BuildAllTreasuresCommand;
+import com.epam.task4.dao.HashMapTreasureDao;
+import com.epam.task4.dao.builder.part.dom.BuildAllTreasuresDomPart;
 import com.epam.task4.dao.exception.DaoException;
-import com.epam.task4.dao.impl.HashMapTreasureDao;
 import com.epam.task4.entity.Treasure;
 
 public class DomTreasureDaoBuilder implements TreasureDaoBuilder {
@@ -78,7 +78,7 @@ public class DomTreasureDaoBuilder implements TreasureDaoBuilder {
         }
         
         private Map<Integer, Treasure> process() throws DaoException {
-            new BuildAllTreasuresCommand(this).execute();
+            new BuildAllTreasuresDomPart(this).build();
             return treasures;
         }
 

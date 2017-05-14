@@ -9,11 +9,11 @@ import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
-import com.epam.task4.command.Command;
-import com.epam.task4.command.manager.CommandManager;
 import com.epam.task4.constants.XmlStreamConstants;
+import com.epam.task4.dao.HashMapTreasureDao;
+import com.epam.task4.dao.builder.part.Part;
+import com.epam.task4.dao.builder.part.manager.PartManager;
 import com.epam.task4.dao.exception.DaoException;
-import com.epam.task4.dao.impl.HashMapTreasureDao;
 import com.epam.task4.entity.Treasure;
 
 import static com.epam.task4.constants.SaxAndStaxParseMarkers.*;
@@ -59,14 +59,14 @@ public class StaxTreasureDaoBuilder implements TreasureDaoBuilder {
         private String text;
         private SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         private XMLStreamReader reader;
-        private Map<String, Command> staxCommandsMap;
+        private Map<String, Part> staxCommandsMap;
         
         public TreasureStaxHandler(XMLStreamReader reader) {
             super();
             this.reader = reader;
             treasures = new HashMap<>();
             formatter = new SimpleDateFormat("yyyy-MM-dd");
-            staxCommandsMap = CommandManager.getStaxCommandsMap(this);
+            staxCommandsMap = PartManager.getStaxCommandsMap(this);
         }
 
         private Map<Integer, Treasure> process() throws XMLStreamException {
@@ -76,7 +76,7 @@ public class StaxTreasureDaoBuilder implements TreasureDaoBuilder {
                 case XmlStreamConstants.START_ELEMENT:
                     elementName = reader.getLocalName();
                     if (staxCommandsMap.containsKey(elementName + START)) {
-                        staxCommandsMap.get(elementName + START).execute();
+                        staxCommandsMap.get(elementName + START).build();
                     }
                     break;
                 case XmlStreamConstants.CHARACTERS:
@@ -87,12 +87,12 @@ public class StaxTreasureDaoBuilder implements TreasureDaoBuilder {
                     switch (elementName) {
                     case "price":
                         if (staxCommandsMap.containsKey(elementName + END)) {
-                            staxCommandsMap.get(elementName + END).execute();
+                            staxCommandsMap.get(elementName + END).build();
                         }
                         break;
                     case "value":
                         if (staxCommandsMap.containsKey(parentElementName + END)) {
-                            staxCommandsMap.get(parentElementName + END).execute();
+                            staxCommandsMap.get(parentElementName + END).build();
                         }
                         break;
                     }
@@ -100,7 +100,7 @@ public class StaxTreasureDaoBuilder implements TreasureDaoBuilder {
                 case XmlStreamConstants.END_ELEMENT:
                     elementName = reader.getLocalName();
                     if (staxCommandsMap.containsKey(elementName + END)) {
-                        staxCommandsMap.get(elementName + END).execute();
+                        staxCommandsMap.get(elementName + END).build();
                     }
                     break;
                 }    
